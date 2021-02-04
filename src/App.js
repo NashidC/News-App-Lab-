@@ -8,20 +8,16 @@ function App() {
   return (
     <Router>
       <nav>
-        {/* <ul>
-          <li> */}
+
         <Link to="/">Home</Link>
         <br></br>
-        {/* </li>
-          <li> */}
+
         <Link to="/business">Business</Link>
         <br></br>
-        {/* </li>
-          <li> */}
+
         <Link to="/bitcoin">Bitcoin</Link>
         <br></br>
-        {/* </li>
-        </ul> */}
+
       </nav>
       <Switch>
         <Route exact path="/">
